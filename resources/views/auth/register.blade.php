@@ -23,6 +23,10 @@
                 <x-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" optional autofocus autocomplete="name" 
                     placeholder="Apellidos (opcional)"/>
             </div>
+            
+            <div>
+
+            </div>
 
             <div class="mt-4">
                 <x-label for="email" value="{{ __('Email') }}" />
