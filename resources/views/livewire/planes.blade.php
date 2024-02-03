@@ -42,7 +42,7 @@
                                 </div>
                             @else
                                 <a href="{{ route('login') }}"
-                                    class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log
+                                    class="bg-blue-600 hover:bg-blue-700 px-8 py-2 text-sm text-gray-200 rounded font-bold transition duration-150">Log
                                     in</a>
 
                                 @if (Route::has('register'))
